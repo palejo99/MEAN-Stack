@@ -1,0 +1,20 @@
+en el header va el tipo de algoritmo usado, y el tipo de token q se envía
+
+CORS permite el intercambio de datos entre el front y el back, a pesar
+de q estos pertenezcan a dominios diferentes.
+
+npm install cors
+
+Iniciar proyecto Angular
+ng new frontend --routing
+ng server arrancar servidor
+ng g c nombre_componente
+ng add @angular/material
+
+npm i -s @angular/flex-layout @angular/cdk -- Librería formularíos
+
+Crear servicio
+ng g s service/auth
+
+Crear guard -> permite establecer restricciones a nivel de permisos
+ng g guard guard/auth
